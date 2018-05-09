@@ -3,17 +3,80 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=Generator content="Microsoft Word 15 (filtered)">
-
+<style type="text/css">
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+</style>
 
 </head>
 
 <body lang=EN-US>
-<div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-ninject" class="anchor" aria-hidden="true" href="#ninject"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Simple Injector</h1>
-<p>Simple Injector is an easy-to-use Dependency Injection (DI) library for .NET 4+ that supports Silverlight, Windows Phone, Windows 8 including Universal apps and Mono. Simple Injector is easily integrated with frameworks such as Web API, MVC, WCF, ASP.NET Core and many others. Itâ€™s easy to implement the dependency injection pattern with loosely coupled components using Simple Injector.</p>
-<a href="https://simpleinjector.org/index.html">Read use of Simple Injector on offical website  </a>
-<br/><br/>
-<p><em>Step by step guide to implement sinple injector in MVC. Sample code is created in Visual studio 2017 community edition</em></p>
 
 <div class=WordSection1>
 
@@ -73,9 +136,9 @@ loaded you can see</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
 style='font-size:13.0pt;line-height:107%'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:13.0pt;line-height:107%'>Install â€œ</span><span
-style='font-size:13.0pt;line-height:107%;font-family:Consolas;color:blue'>SimpleInjector.Integration.Web.Mvcâ€</span><span
-style='font-size:13.0pt;line-height:107%'> Â package from nugget, it will
+</span></span><span style='font-size:13.0pt;line-height:107%'>Install “</span><span
+style='font-size:13.0pt;line-height:107%;font-family:Consolas;color:blue'>SimpleInjector.Integration.Web.Mvc”</span><span
+style='font-size:13.0pt;line-height:107%'>  package from nugget, it will
 install all dependencies. Packages.config file will have now entries </span></p>
 
 <p class=MsoListParagraphCxSpLast><span style='font-size:13.0pt;line-height:
@@ -164,8 +227,8 @@ none'><span style='font-size:13.0pt'>&nbsp;</span></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
 style='font-size:13.0pt;line-height:107%'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:13.0pt;line-height:107%'>Add two projects
-â€œDataAccessâ€ and â€œEntityModelâ€. Dataaccess is for interacting with database and
-entity model will contains entities. Add references of these projects in â€œAppâ€
+“DataAccess” and “EntityModel”. Dataaccess is for interacting with database and
+entity model will contains entities. Add references of these projects in “App”
 project</span></p>
 
 <p class=MsoListParagraphCxSpMiddle><span style='font-size:13.0pt;line-height:
@@ -180,9 +243,9 @@ project</span></p>
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
 style='font-size:13.0pt;line-height:107%'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:13.0pt;line-height:107%'>In DataAccess
-layer, create one folder â€œInterfaceâ€ and interface file â€œ</span><span
+layer, create one folder “Interface” and interface file “</span><span
 style='font-size:13.0pt;line-height:107%;font-family:Consolas;color:#2B91AF'>ICompanyRepository.cs</span><span
-style='font-size:13.0pt;line-height:107%'>â€</span></p>
+style='font-size:13.0pt;line-height:107%'>”</span></p>
 
 <p class=MsoListParagraphCxSpMiddle><span style='font-size:13.0pt;line-height:
 107%'>&nbsp;</span></p>
@@ -201,7 +264,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>{</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>    </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>public</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>interface</span><span
@@ -210,16 +273,16 @@ style='font-size:13.0pt;font-family:Consolas;color:#2B91AF'>ICompanyRepository</
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  List&lt;Company&gt;
+style='font-size:13.0pt;font-family:Consolas;color:black'>        List&lt;Company&gt;
 GetCompanies();</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    }</span></p>
 
 <p class=MsoNormal style='text-indent:.5in'><span style='font-size:13.0pt;
 line-height:107%;font-family:Consolas;color:black'>}</span></p>
@@ -228,8 +291,8 @@ line-height:107%;font-family:Consolas;color:black'>}</span></p>
 line-height:107%;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoListParagraphCxSpFirst><span style='font-size:13.0pt;line-height:
-107%'>Now, create â€œRepositoryâ€ folder and add class file
-â€œCompanySqlRepository.csâ€. Implement interface and created the constructor to
+107%'>Now, create “Repository” folder and add class file
+“CompanySqlRepository.cs”. Implement interface and created the constructor to
 inject IDbConnection which will return sqlconnection. </span></p>
 
 <p class=MsoListParagraphCxSpMiddle><span style='font-size:13.0pt;line-height:
@@ -313,7 +376,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>{</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>    </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>public</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>class</span><span
@@ -323,11 +386,11 @@ style='font-size:13.0pt;font-family:Consolas;color:black'> : ICompanyRepository<
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>private</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> IDbConnection
 _connection;</span></p>
@@ -338,30 +401,30 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>public</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'>
 CompanySqlRepository(IDbConnection conn)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+style='font-size:13.0pt;font-family:Consolas;color:black'>           
 _connection = conn;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+style='font-size:13.0pt;font-family:Consolas;color:black'>           
 _connection.ConnectionString = ConfigurationManager.ConnectionStrings[</span><span
 style='font-size:13.0pt;font-family:Consolas;color:#A31515'>&quot;mssql&quot;</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'>].ConnectionString;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
@@ -369,23 +432,23 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>public</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> List&lt;Company&gt;
 GetCompanies()</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  <span
+style='font-size:13.0pt;font-family:Consolas;color:black'>            <span
 style='background:yellow'>_connection.Open();</span></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  <span
+style='font-size:13.0pt;font-family:Consolas;color:black'>            <span
 style='background:yellow'>_connection.Close();</span></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -394,7 +457,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>            </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>var</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> lstCompany = </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>new</span><span
@@ -403,11 +466,11 @@ List&lt;Company&gt;()</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>            {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>                </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>new</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> Company{Id=1, Name=</span><span
 style='font-size:13.0pt;font-family:Consolas;color:#A31515'>&quot;Microsoft&quot;</span><span
@@ -415,7 +478,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'> },</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>                </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>new</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> Company{Id=2, Name=</span><span
 style='font-size:13.0pt;font-family:Consolas;color:#A31515'>&quot;Google&quot;</span><span
@@ -423,7 +486,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'> },</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>                </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>new</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> Company{Id=3, Name=</span><span
 style='font-size:13.0pt;font-family:Consolas;color:#A31515'>&quot;Facebook&quot;</span><span
@@ -431,7 +494,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'> },</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>                </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>new</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> Company{Id=4, Name=</span><span
 style='font-size:13.0pt;font-family:Consolas;color:#A31515'>&quot;Tesla&quot;</span><span
@@ -439,7 +502,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'> },</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>                </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>new</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> Company{Id=5, Name=</span><span
 style='font-size:13.0pt;font-family:Consolas;color:#A31515'>&quot;HP&quot;</span><span
@@ -447,7 +510,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'> }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  };</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>            };</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
@@ -455,35 +518,35 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â  Â Â Â Â Â Â Â </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>            </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>return</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> lstCompany;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    }</span></p>
 
 <p class=MsoNormal style='text-indent:.5in'><span style='font-size:13.0pt;
 line-height:107%;font-family:Consolas;color:black'>}</span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
 style='font-size:13.0pt;line-height:107%'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size:13.0pt;line-height:107%'>Create â€œ</span><span
+</span></span><span style='font-size:13.0pt;line-height:107%'>Create “</span><span
 style='font-size:13.0pt;line-height:107%;font-family:Consolas;color:#2B91AF'>ApplicationDependencyResolver.cs</span><span
-style='font-size:13.0pt;line-height:107%'>â€ file under App_start folder and add
-namespace â€œ</span><span style='font-size:13.0pt;line-height:107%;font-family:
+style='font-size:13.0pt;line-height:107%'>” file under App_start folder and add
+namespace “</span><span style='font-size:13.0pt;line-height:107%;font-family:
 Consolas;color:blue'>using</span><span style='font-size:13.0pt;line-height:
-107%;font-family:Consolas;color:black'> SimpleInjector;â€</span><span
+107%;font-family:Consolas;color:black'> SimpleInjector;”</span><span
 style='font-size:13.0pt;line-height:107%'>. Mark class as static and will start
 creating method which contains all dependencies related to project.</span></p>
 
 <p class=MsoListParagraphCxSpMiddle><span style='font-size:13.0pt;line-height:
 107%'>Here we are going to add dependencies for IDbConnection and
-ICompanyRepository, before this itâ€™s important to Register MVC Controllers and
+ICompanyRepository, before this it’s important to Register MVC Controllers and
 Filter Providers.</span></p>
 
 <p class=MsoListParagraphCxSpMiddle><span style='font-size:13.0pt;line-height:
@@ -541,7 +604,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>{</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>    </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>Public static</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>class</span><span
@@ -550,11 +613,11 @@ style='font-size:13.0pt;font-family:Consolas;color:#2B91AF'>ApplicationDependenc
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>public</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>static</span><span
@@ -565,11 +628,11 @@ RegisterApplicationDependencies(Container container)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+style='font-size:13.0pt;font-family:Consolas;color:black'>           
 container.RegisterMvcControllers();</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -578,7 +641,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+style='font-size:13.0pt;font-family:Consolas;color:black'>           
 container.RegisterMvcIntegratedFilterProvider();</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -588,7 +651,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:99.0pt;margin-bottom:.0001pt;text-indent:-63.0pt;line-height:normal;
 text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
-color:black'>Â Â Â Â Â Â Â Â Â Â Â  container.Register&lt;ICompanyRepository,
+color:black'>            container.Register&lt;ICompanyRepository,
 CompanySqlRepository&gt;(Lifestyle.Scoped);</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -599,7 +662,7 @@ color:black'>&nbsp;</span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:99.0pt;margin-bottom:.0001pt;text-indent:-63.0pt;line-height:normal;
 text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
-color:black'>Â Â Â Â Â Â Â Â Â Â Â  container.Register&lt;IDbConnection&gt;(() =&gt; </span><span
+color:black'>            container.Register&lt;IDbConnection&gt;(() =&gt; </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>new</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'>
 SqlConnection(ConfigurationManager.ConnectionStrings[</span><span
@@ -609,11 +672,11 @@ Lifestyle.Scoped);</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    }</span></p>
 
 <p class=MsoNormal style='margin-left:.5in'><span style='font-size:13.0pt;
 line-height:107%;font-family:Consolas;color:black'>}</span></p>
@@ -626,13 +689,13 @@ line-height:107%;font-family:Consolas;color:black'>}</span></p>
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
 style='font-size:13.0pt;line-height:107%'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:13.0pt;line-height:107%'>Next step to
-initialize injector, create new file Â â€œ</span><span style='font-size:13.0pt;
+initialize injector, create new file  “</span><span style='font-size:13.0pt;
 line-height:107%;font-family:Consolas;color:#2B91AF'>SimpleInjectorWebInitializer.cs</span><span
-style='font-size:13.0pt;line-height:107%'>â€ and mark class as static.Â  It is
-must to define â€œDefaultScopedLifeStyleâ€ else it will throw error. Â If you want
+style='font-size:13.0pt;line-height:107%'>” and mark class as static.  It is
+must to define “DefaultScopedLifeStyle” else it will throw error.  If you want
 to add comman dependencies throughout the application like logger or cache,
 then register as singleton. I have created method for it. As of now it is
-commented. Letâ€™s focus on interface ICompanyRepository injection.</span></p>
+commented. Let’s focus on interface ICompanyRepository injection.</span></p>
 
 <p class=MsoListParagraphCxSpMiddle><span style='font-size:13.0pt;line-height:
 107%'>&nbsp;</span></p>
@@ -706,7 +769,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>{</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>    </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>public</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>static</span><span
@@ -717,7 +780,7 @@ style='font-size:13.0pt;font-family:Consolas;color:#2B91AF'>SimpleInjectorWebIni
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
@@ -725,7 +788,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>public</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>static</span><span
@@ -736,15 +799,15 @@ InitilizeContainer(Action&lt;Container&gt; registerApplicationDependencies)</spa
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  GetInitializeContainer(registerApplicationDependencies);</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>            GetInitializeContainer(registerApplicationDependencies);</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
@@ -752,7 +815,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>public</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>static</span><span
@@ -761,11 +824,11 @@ GetInitializeContainer(Action&lt;Container&gt; registerApplicationDependencies)<
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>            </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>var</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> container = </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>new</span><span
@@ -773,18 +836,18 @@ style='font-size:13.0pt;font-family:Consolas;color:black'> Container();</span></
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+style='font-size:13.0pt;font-family:Consolas;color:black'>           
 Initialize(container, registerApplicationDependencies);</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>            </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>return</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> container;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
@@ -792,7 +855,7 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>private</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>static</span><span
@@ -803,35 +866,35 @@ container, Action&lt;Container&gt; registerApplicationDependencies)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+style='font-size:13.0pt;font-family:Consolas;color:black'>           
 container.Options.DefaultScopedLifestyle = </span><span style='font-size:13.0pt;
 font-family:Consolas;color:blue'>new</span><span style='font-size:13.0pt;
 font-family:Consolas;color:black'> WebRequestLifestyle();</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+style='font-size:13.0pt;font-family:Consolas;color:black'>           
 RegisterCommandDependencies(container);</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+style='font-size:13.0pt;font-family:Consolas;color:black'>           
 registerApplicationDependencies.Invoke(container);</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+style='font-size:13.0pt;font-family:Consolas;color:black'>           
 DependencyResolver.SetResolver(</span><span style='font-size:13.0pt;font-family:
 Consolas;color:blue'>new</span><span style='font-size:13.0pt;font-family:Consolas;
 color:black'> SimpleInjectorDependencyResolver(container));</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
@@ -839,28 +902,28 @@ style='font-size:13.0pt;font-family:Consolas;color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:gray'>///</span><span
 style='font-size:13.0pt;font-family:Consolas;color:green'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:gray'>&lt;summary&gt;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:gray'>///</span><span
 style='font-size:13.0pt;font-family:Consolas;color:green'> This class is to
 register commandepencies through out the application, like logger, cache</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:gray'>///</span><span
 style='font-size:13.0pt;font-family:Consolas;color:green'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:gray'>&lt;/summary&gt;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>private</span><span
 style='font-size:13.0pt;font-family:Consolas;color:black'> </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>static</span><span
@@ -871,25 +934,25 @@ RegisterCommandDependencies(Container container)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>            </span><span
 style='font-size:13.0pt;font-family:Consolas;color:green'>//container.RegisterSingleton&lt;ObjectCache&gt;(MemoryCache.Default);</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>            </span><span
 style='font-size:13.0pt;font-family:Consolas;color:green'>//container.RegisterSingleton&lt;ILog&gt;(LogManager.GetLogger(&quot;&quot;));</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>        }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
@@ -921,11 +984,11 @@ style='font-size:13.0pt;font-family:Consolas;color:black'> Application_Start()</
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
-color:black'>Â Â Â Â Â Â Â  {</span></p>
+color:black'>        {</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
-color:black'>Â Â Â Â Â Â Â Â Â Â Â  AreaRegistration.RegisterAllAreas();</span></p>
+color:black'>            AreaRegistration.RegisterAllAreas();</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
@@ -934,12 +997,12 @@ color:black'>&nbsp;</span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:63.0pt;margin-bottom:.0001pt;text-indent:-63.0pt;line-height:normal;
 text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
-color:black'>Â Â Â Â Â Â Â Â Â Â Â  Action&lt;Container&gt; registerApplictionDependencies
+color:black'>            Action&lt;Container&gt; registerApplictionDependencies
 = ApplicationDependencyResolver.RegisterApplicationDependencies;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:63.0pt;margin-bottom:.0001pt;line-height:normal;text-autospace:
-none'><span style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+none'><span style='font-size:13.0pt;font-family:Consolas;color:black'>           
 SimpleInjectorWebInitializer.InitilizeContainer(registerApplictionDependencies);</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
@@ -948,21 +1011,21 @@ color:black'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
-color:black'>Â Â Â Â Â Â Â Â Â Â Â 
+color:black'>           
 FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
-color:black'>Â Â Â Â Â Â Â Â Â Â Â  RouteConfig.RegisterRoutes(RouteTable.Routes);</span></p>
+color:black'>            RouteConfig.RegisterRoutes(RouteTable.Routes);</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
-color:black'>Â Â Â Â Â Â Â Â Â Â Â  BundleConfig.RegisterBundles(BundleTable.Bundles);</span></p>
+color:black'>            BundleConfig.RegisterBundles(BundleTable.Bundles);</span></p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
 margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;line-height:normal;
 text-autospace:none'><span style='font-size:13.0pt;font-family:Consolas;
-color:black'>Â Â Â Â  }</span></p>
+color:black'>     }</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
 margin-bottom:0in;margin-left:.25in;margin-bottom:.0001pt;line-height:normal;
@@ -984,7 +1047,7 @@ style='font-size:13.0pt;font-family:Consolas;color:blue'>&gt;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  <span
+style='font-size:13.0pt;font-family:Consolas;color:black'>    <span
 style='background:yellow'>@</span></span><span style='font-size:13.0pt;
 font-family:Consolas;color:blue'>foreach</span><span style='font-size:13.0pt;
 font-family:Consolas;color:black'> (var item </span><span style='font-size:
@@ -993,11 +1056,11 @@ font-family:Consolas;color:black'> ViewBag.Companies)</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  {</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    {</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â Â Â Â Â  </span><span
+style='font-size:13.0pt;font-family:Consolas;color:black'>        </span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>&lt;</span><span
 style='font-size:13.0pt;font-family:Consolas;color:maroon'>li</span><span
 style='font-size:13.0pt;font-family:Consolas;color:blue'>&gt;</span><span
@@ -1010,7 +1073,7 @@ font-family:Consolas;color:blue'>&gt;</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
-style='font-size:13.0pt;font-family:Consolas;color:black'>Â Â Â  }</span></p>
+style='font-size:13.0pt;font-family:Consolas;color:black'>    }</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;text-autospace:none'><span
