@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=Generator content="Microsoft Word 15 (filtered)">
-<style>
+<style type="text/css">
  /* Font Definitions */
  @font-face
 	{font-family:"Cambria Math";
